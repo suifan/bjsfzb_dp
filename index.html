@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="no-cache" http-equiv="Cache-Control" />
+    <meta content="no-cache" http-equiv="Pragma" />
+	<title>北京市执法信息平台</title>
+	<style type="text/css">
+		body{
+			overflow: hidden;
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas-bg" style="height: 100%;">
+	</canvas>
+
+
+	<script type="text/javascript" src="plugins/jquery/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="plugins/d3/d3.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript">
+		
+		App.init();
+		
+		
+
+		// var _ROTATE_PERIOD = 300000;
+		// var t = 0;
+		// var last = 0;
+		// var _CANVAS_W = 5760;
+		// var _CANVAS_H = 3240;
+
+		// function _drawBG(elapsed) {
+		//     t = t + (elapsed - last) / _ROTATE_PERIOD;
+		//     last = elapsed
+
+		//     if (t >= 1) {
+		//         t = 0;
+		//     }
+		//     if (t <= 0) {
+		//         t = 0;
+		//     }
+
+		//     var angle = t * Math.PI * 2;
+
+		//     var canvas = document.getElementById('canvas');
+		//     var ctx = canvas.getContext('2d');
+
+		//     ctx.save();
+		//     ctx.translate(_CANVAS_W / 2, _CANVAS_H / 2);
+
+		//     ctx.rotate(angle);
+
+		//     ctx.translate(-1 * _CANVAS_W / 2, -1 * _CANVAS_H / 2);
+
+		//     var pp = ctx.createPattern(_img, 'repeat');
+		//     ctx.fillStyle = pp;
+		//     ctx.fillRect(0, 0, _CANVAS_W, _CANVAS_H);
+
+		//     ctx.restore();
+		// }
+
+		// _drawBG();
+	</script>
+</body>
+</html>
